@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "changeme"
+version = "0.1.0"
+description = "some description"
+authors = ["yada <trojblue@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/trojblue/changme"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "^8.1.5"
+
+[tool.poetry.scripts]
+unibox = 'changeme.cli:cli'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
