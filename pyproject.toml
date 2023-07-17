@@ -12,7 +12,7 @@ python = "^3.10"
 click = "^8.1.5"
 
 [tool.poetry.scripts]
-unibox = 'changeme.cli:cli'
+changeme = 'changeme.cli:cli'
 
 [build-system]
 requires = ["poetry-core"]
